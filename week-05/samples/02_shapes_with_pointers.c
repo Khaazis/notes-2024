@@ -49,7 +49,7 @@ int main()
 
     int square_a, square_result;
     puts("Enter the side of the square!");
-    scanf("%dd", &square_a);
+    scanf("%d", &square_a);
 
     square_area(square_a, &square_result);
     printf("area: %d\n", square_result);
